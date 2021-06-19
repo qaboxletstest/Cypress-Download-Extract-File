@@ -1,0 +1,18 @@
+{
+  "name": "cypress-download-extract-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "if exist mydownloads rmdir /s/q mydownloads",
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "QA BOX <qabox@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "cypress-downloadfile": "^1.2.1",
+    "tesseract.js": "^2.1.4"
+  }
+}
