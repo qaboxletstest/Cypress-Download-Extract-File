@@ -13,6 +13,7 @@
   "dependencies": {
     "cypress": "^7.5.0",
     "cypress-downloadfile": "^1.2.1",
+    "jimp": "^0.16.1",
     "tesseract.js": "^2.1.4"
   }
 }
